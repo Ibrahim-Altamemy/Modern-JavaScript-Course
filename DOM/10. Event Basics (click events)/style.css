@@ -1,0 +1,17 @@
+ul{
+    font-size: 1.3rem;
+    width: 500px;;
+}
+
+ul li{
+    background-color: grey;
+    padding: 5px;
+    list-style: none;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.mid-line{
+    text-decoration-line: line-through;
+    color: green;
+}
