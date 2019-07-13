@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ninja Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- intro -->
+  <div class="intro">
+    <div class="container">
+      <h2 class="display-3 text-center text-primary my-5">Ninja Quiz</h2>
+    </div>
+  </div>
+
+  <!-- result -->
+  <div class="result py-4 bg-light text-center d-none">
+    <div class="container lead">
+      <p>Your are <span class="text-primary display-4 p3"> 0% </span> Ninja</p>
+    </div>
+  </div>
+
+  <!-- Quiz -->
+  <div class="quiz bg-info">
+    <div class="container">
+      <form class="form-quiz py-4">
+        <div class="my-5">
+          <p>What is the voltage</p>
+          <div class="form-check">
+            <input type="radio" name="q1" value="A" checked>
+            <label>Voltaage is a cat</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="q1" value="B">
+            <label>Voltaage is a diff in electronics</label>
+          </div>
+        </div>
+        <!-- second q -->
+        <div class="my-5">
+          <p>What is the current</p>
+          <div class="form-check">
+            <input type="radio" name="q2" value="A" checked>
+            <label>electromics</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="q2" value="B">
+            <label>Dogs</label>
+          </div>
+        </div>
+        <!-- Third q -->
+        <div class="my-5">
+            <p>What is the battery</p>
+            <div class="form-check">
+              <input type="radio" name="q3" value="A" checked>
+              <label>power</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" name="q3" value="B">
+              <label>cheken</label>
+            </div>
+        </div>
+
+        <div class="submit">
+            <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
